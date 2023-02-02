@@ -1,0 +1,58 @@
+A fazer para a PAP:
+
+Possibilitar no Front-office: 
+
+	Criar Cliente (feito, COM CONFIRMAÇÃO DE EMAIL), 
+	
+	Login (feito) 
+	
+	
+
+	Fazer marcações (problema com o flatpicker)
+
+	Verificar marcações prévias(ao cliente logado)
+
+	Ver novidades, planos de orçamento e guardar resultados como se fosse num carrinho. 
+
+
+Back-office:
+
+	Gerir clientes/funcionários (adicionando, removendo(ok) e atualizando registos)
+	Atribuir funcionários a serviços, adicionar ou remover serviços. 
+	Ver gráficos de faturação
+	Ver e modificar calendário. 
+
+
+Main:
+
+Slideshow ok
+Cards ok
+
+
+
+
+
+email: ^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$^
+
+
+nome: /^[a-zA-Z ]*$/
+
+
+
+
+Páginas já estilizadas:
+
+
+Login
+
+Index
+
+
+Falta estilizar:
+
+CLIENTE ->  criar cliente /  Fazer marcações / User page
+
+ADMIN -> tabela de clientes, calendário, serviços
+
+
+
