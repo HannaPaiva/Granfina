@@ -10,6 +10,7 @@ Web application using PHP, HTML, CSS, Javascript, Mysql for a Beauty Studio in F
 4 - Import the file studiobd.sql, and change the config.php file to match your local settings, like the name of the database, User and password
 5 - Refresh the page.
 
+# To know
 This website have two sides. The front-office and the backoffice. To manage the backoffice write: http://localhost/admin and login with the credentials:
 User: admin@admin.com
 Pass: 123
