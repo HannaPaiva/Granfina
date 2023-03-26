@@ -248,6 +248,7 @@ class Clientes
             ':genero' => $_POST["genero"],
             ':obs' => '',
             ':sobre' => '',
+            ':servicos_consultados' => '',
 
         ];
 
@@ -271,7 +272,8 @@ class Clientes
             :nivel,
             :genero,
             :obs,
-            :sobre
+            :sobre,
+            :servicos_consultados
             )", $parametros);
 
         return $purl;
@@ -460,6 +462,7 @@ class Clientes
             ':genero' => '',
             ':obs' => '',
             ':sobre' => '',
+            ':servicos_consultados' => '',
 
         ];
 
@@ -483,7 +486,9 @@ class Clientes
             :nivel,
             :genero,
             :obs,
-            :sobre
+            :sobre,
+            :servicos_consultados
+
             )", $parametros);
 
         Studio::redirect('tabela_clientes', true);
